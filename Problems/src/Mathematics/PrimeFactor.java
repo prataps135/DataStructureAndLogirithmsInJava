@@ -23,6 +23,8 @@ public class PrimeFactor {
 			}
 		}
 	}
+	
+	//Optimal solution
 
 	public static void main(String[] args) {
 		primeFactor(100);
