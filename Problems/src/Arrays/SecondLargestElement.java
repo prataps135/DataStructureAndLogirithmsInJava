@@ -24,6 +24,7 @@ public class SecondLargestElement {
 
 	// Efficient solution
 	// Finding second largest in one traversal
+	// Time Complexity = O(n)
 	static int getSecond1(int[] arr) {
 		int large = 0;
 		int second = -1;
