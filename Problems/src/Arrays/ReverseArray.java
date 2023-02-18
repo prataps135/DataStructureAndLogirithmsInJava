@@ -14,6 +14,7 @@ public class ReverseArray {
 //	}
 
 	// We swap the low and high
+	// Time complexity = O(n*1/2)
 	static void reverse(int[] arr) {
 		int low = 0, high = arr.length - 1;
 		while (low < high) {
